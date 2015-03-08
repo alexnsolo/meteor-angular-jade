@@ -8,7 +8,7 @@ For use with angular-meteor only. https://github.com/Urigo/angular-meteor
 ```meteor add civilframe:angular-jade```
 
 ### Usage
-Name files ending in "*.ng.jade" and they will be compiled to "*.html".
+Files ending in *.ng.jade and will be compiled to *.html
 
 For example, "templates/directives/editUserForm.ng.jade" will be compiled to "templates/directives/editUserForm.html", so you'll want to reference it as such in Angular.
 
