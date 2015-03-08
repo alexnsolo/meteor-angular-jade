@@ -1,2 +1,2 @@
 # meteor-angular-jade
-Compilex Jade templates for use in meteor-angular.
+Compile Jade templates for use in meteor-angular.
