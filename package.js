@@ -1,7 +1,7 @@
 Package.describe({
   name: "civilframe:angular-jade",
   summary: "Jade templating for Meteor-Angular",
-  version: "0.0.1",
+  version: "0.0.2",
   git: "https://github.com/civilframe/meteor-angular-jade.git"
 });
 
