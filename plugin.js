@@ -17,6 +17,7 @@ Plugin.registerSourceHandler('ng.jade', {
     '$templateCache.put(\'' + newPath + '\', \'' +
       minify(contents.replace(/'/g, "\\'"), {
         collapseWhitespace : true,
+        conservativeCollapse : true,
         removeComments : true,
         minifyJS : true,
         minifyCSS: true,
