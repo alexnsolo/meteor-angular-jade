@@ -3,7 +3,7 @@ var jade = Npm.require('jade');
 var jadeOpts = {pretty:true, compileDebug:false};
 
 Plugin.registerSourceHandler('ng.jade', {
-  isTemplate: true, 
+  isTemplate: true,
   archMatching: 'web'
 }, function(compileStep) {
   var contents = compileStep.read().toString('utf8');
@@ -27,7 +27,7 @@ Plugin.registerSourceHandler('ng.jade', {
 
   compileStep.addJavaScript({
     path : newPath,
-    data : results,
+    data : results.replace(/\n/g, '\\n'),
     sourcePath : compileStep.inputPath
   });
 });
