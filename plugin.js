@@ -7,6 +7,7 @@ Plugin.registerSourceHandler('ng.jade', {
   archMatching: 'web'
 }, function(compileStep) {
   var contents = compileStep.read().toString('utf8');
+  jadeOpts.filename = compileStep.inputPath;
   contents = jade.compile(contents, jadeOpts)();
 
   var newPath = compileStep.inputPath;
