@@ -1,5 +1,5 @@
 # meteor-angular-jade
-Compile Jade templates for use in meteor-angular.
+Compile Jade templates for use in meteor-angular, with Angular 1.x.
 
 ### Prerequisites
 For use with angular-meteor only. https://github.com/Urigo/angular-meteor
