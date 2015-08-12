@@ -12,7 +12,7 @@ Plugin.registerSourceHandler('ng.jade', {
 
   var newPath = compileStep.inputPath;
   newPath = newPath.replace(/\\/g, "/");
-  newPath = newPath.replace(".ng.jade", ".html");
+  newPath = newPath.replace(".ng.jade", ".ng.html");
 
   var results = 'angular.module(\'angular-meteor\').run([\'$templateCache\', function($templateCache) {' +
     '$templateCache.put(\'' + newPath + '\', \'' +
