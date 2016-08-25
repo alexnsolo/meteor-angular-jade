@@ -1,3 +1,5 @@
+!! COMPATIBLE WITH METEOR 1.2 and EARLIER
+
 # meteor-angular-jade
 Compile Jade templates for use in meteor-angular, with Angular 1.x.
 
